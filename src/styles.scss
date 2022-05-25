@@ -1,0 +1,50 @@
+/* Add application styles & imports to this file! */
+@import 'assets/riu-scss/shared-new';
+@import 'assets/riu-scss/theme';
+
+#{$token-prefix-class}-theme {
+  &.inspect {
+    .o-container {
+      background-color: #e5ff001c;
+      position: relative;
+
+      &::after,
+      &::before {
+        content: '';
+        background-color: #e5ff007e;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 16px;
+
+        @include iota-breakpoint(xs) {
+          width: 32px;
+        }
+      }
+      &::before {
+        left: 0;
+      }
+      &::after {
+        right: 0;
+      }
+    }
+    .o-grid > .o-grid__col {
+      background-color: #ff007f1c;
+      position: relative;
+
+      &::before {
+        content: '';
+        background-color: #ff00807d;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 16px;
+
+        @include iota-breakpoint(xs) {
+          width: 32px;
+        }
+      }
+    }
+  }
+}

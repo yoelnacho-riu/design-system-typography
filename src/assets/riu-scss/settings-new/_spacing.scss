@@ -1,0 +1,50 @@
+$token-baseline-base: 4px;
+
+$iota-spacing-extra: (
+  -x0: 0,
+  -x1: $token-baseline-base,
+  -x2: ($token-baseline-base * 2),
+  -x3: ($token-baseline-base * 3),
+  -x4: ($token-baseline-base * 4),
+  -x5: ($token-baseline-base * 5),
+  -x6: ($token-baseline-base * 6),
+  -x8: ($token-baseline-base * 8),
+  -x10: ($token-baseline-base * 10),
+  -x12: ($token-baseline-base * 12),
+  -x16: ($token-baseline-base * 16),
+  -x20: ($token-baseline-base * 20),
+  -x24: ($token-baseline-base * 24),
+  -x28: ($token-baseline-base * 28),
+  -x32: ($token-baseline-base * 32),
+  -x40: ($token-baseline-base * 40),
+  -x48: ($token-baseline-base * 48),
+  -x56: ($token-baseline-base * 56),
+  -x64: ($token-baseline-base * 64)
+);
+
+$iota-media-extra: (
+  null: 0,
+  xs: $token-baseline-base,
+  sm: (
+    $token-baseline-base * 2,
+  ),
+  md: (
+    $token-baseline-base * 4,
+  ),
+  lg: (
+    $token-baseline-base * 6,
+  ),
+  xl: (
+    $token-baseline-base * 8,
+  ),
+);
+
+$iota-border-radius: (
+  -null: 0,
+  -xs: $token-baseline-base,
+  -sm: ($token-baseline-base * 2),
+  -md: ($token-baseline-base * 4),
+  -lg: ($token-baseline-base * 6),
+  -xl: ($token-baseline-base * 8),
+  -full: 100%
+);

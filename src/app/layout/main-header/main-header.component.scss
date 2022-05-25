@@ -1,0 +1,7 @@
+@import '../../../assets/riu-scss/shared-new';
+
+:host {
+  header {
+    z-index: map-get($token-z-index, 'base');
+  }
+}

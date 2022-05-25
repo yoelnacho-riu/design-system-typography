@@ -1,0 +1,16 @@
+$breakpoint-mobile: 640px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop-large: 1500px;
+
+$token-breakpoint-mobile: 'screen and ( min-width: #{$breakpoint-mobile} )';
+$token-breakpoint-tablet: 'screen and ( min-width: #{$breakpoint-tablet} )';
+$token-breakpoint-desktop: 'screen and ( min-width: #{$breakpoint-desktop} )';
+$token-breakpoint-desktop-large: 'screen and ( min-width: #{$breakpoint-desktop-large} )';
+
+$iota-breakpoint-list: (
+  xs: $token-breakpoint-mobile,
+  sm: $token-breakpoint-tablet,
+  md: $token-breakpoint-desktop,
+  lg: $token-breakpoint-desktop-large,
+);
